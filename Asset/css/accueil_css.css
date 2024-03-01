@@ -1,4 +1,6 @@
-body{
+
+
+ body{
         background-image: url(/Asset/img/chris-liverani-oCsaxvGCehM-unsplash\(1\).jpg);
         background-attachment: fixed;
         background-size: cover;
@@ -9,33 +11,54 @@ body{
       
 
 
-body{
-background-color: lightgrey;
+ body{
+ background-color: lightgrey;
 
-}
-
-
-nav{
-
-background-color: #970747;
-
-}
+ }
 
 
-#OMBRE{
-  filter: drop-shadow(0rem 0rem 0.25rem #000000);
-}
+ nav{
 
-#colornav{
+ background-color: #970747;
+
+ } 
+
+ #color_navlink:hover{
+  text-decoration: underline;
+
+ }
+
+
+
+ #color_navlink{
   color: whitesmoke;
   text-decoration: none;
-}
+ }
 
-#colorcards{
+ #OMBRE{
+  filter: drop-shadow(0rem 0rem 0.25rem #000000);
+ }
+
+ #colorcards{
   color: black;
   text-decoration: none;
-}
+ }
 
-.btn{
+ .btn{
  background-color: #970747; color: white;
-}
+ }
+
+ #colors_ombre{
+  background-color: #970747; color: white;
+  filter: drop-shadow(0rem 0rem 0.25rem #000000);
+ }
+
+ #cardplat:hover{
+ transform: scale(1.10);
+ }
+
+ #cardplat{
+  transition: all 0.25s;
+  filter: drop-shadow(0rem 0rem 0.25rem #000000);
+ }
+
